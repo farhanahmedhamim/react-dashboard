@@ -1,0 +1,14 @@
+.bigbar {
+    width: 100%;
+    box-shadow: 0px 0px 10px 5px #e8e8e8;
+    border-radius: 20px;
+    padding: 30px 40px;
+    padding-top: 50px;
+}
+
+
+@media(max-width:768px) {
+    .bigbar {
+        padding: 20px 0px;
+    }
+}

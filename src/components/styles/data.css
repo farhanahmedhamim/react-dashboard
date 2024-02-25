@@ -1,0 +1,54 @@
+.data-bottom {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.data-wrap {
+    width: 100%;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.math-wrap {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.boxplot-wrap {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.data-top {
+    width: 100%;
+}
+
+.asssss {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+
+@media(max-width:1200px) {
+    .data-wrap {
+        padding-right: 20px;
+    }
+
+    .boxplot-wrap {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media(max-width:768px) {
+    .data-wrap {
+        padding-right: 10px;
+    }
+}

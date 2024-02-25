@@ -1,0 +1,56 @@
+
+
+.usermanagement-top {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.usermanagement-center {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+
+
+
+.usermanagement-bottom {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+@media(max-width:1200px) {
+
+    .usermanagement-container {
+        padding-right: 20px;
+    }
+
+    .usermanagement-top {
+        flex-wrap: wrap;
+    }
+
+    .usermanagement-center {
+        flex-wrap: wrap;
+    }
+
+    .usermanagement-bottom {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media(max-width:768px) {
+    .usermanagement-container {
+        padding-right: 10px;
+    }
+
+    .student-top {
+        flex-wrap: wrap;
+    }
+}

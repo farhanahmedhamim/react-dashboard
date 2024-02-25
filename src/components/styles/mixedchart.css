@@ -1,0 +1,14 @@
+.mixed-chart {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-top: 70px;
+    box-shadow: 0px 0px 10px 5px #e8e8e8;
+}
+
+@media(max-width:768px) {
+    .mixed-chart {
+        padding: 20px 5px;
+    }
+}

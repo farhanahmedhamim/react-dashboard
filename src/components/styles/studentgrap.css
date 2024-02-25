@@ -1,0 +1,120 @@
+.student-grap {
+    width: 70%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px #e8e8e8;
+}
+
+.student-top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.student-top h1 {
+    white-space: nowrap;
+}
+
+.girls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 40px;
+}
+
+
+.girls p {
+    margin-right: 30px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.labels {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swuitch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 16px;
+}
+
+.swuitch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #c9c9c9;
+    transition: .3s;
+    border-radius: 25px;
+}
+
+
+.slider::before {
+    position: absolute;
+    content: '';
+    height: 25px;
+    width: 25px;
+    background-color: #f4f4f4;
+    left: 0px;
+    bottom: -4px;
+    transition: .3s;
+    border-radius: 50%;
+}
+
+input:checked~.slider::before {
+    transform: translateX(25px);
+}
+
+
+input:checked~.slider {
+    background-color: #E4CFFF;
+}
+
+input:checked~.slider::before {
+    background-color: #DE21B5;
+}
+
+input:checked~.slide::before {
+    background-color: #0000FF;
+}
+
+
+
+.student-bottom {
+    width: 100%;
+}
+
+@media(max-width:1200px) {
+    .student-grap {
+        width: 100%;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:768px) {
+    .student-grap {
+        padding: 10px;
+    }
+
+    .mmmmmm {
+        flex-wrap: wrap;
+    }
+
+    .mmmmmm .girls {
+        margin: 10px;
+    }
+}

@@ -1,0 +1,101 @@
+.activities-container {
+    width: 28%;
+    padding: 30px 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 5px #e8e8e8;
+    position: relative;
+}
+
+
+.activities-tests {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.activities-tests p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.tool-bar {
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E3E4E9;
+    cursor: pointer;
+}
+
+.tool-bar img {
+    width: 13px;
+    height: auto;
+    filter: invert(73%) sepia(19%) saturate(234%) hue-rotate(192deg) brightness(91%) contrast(81%);
+    cursor: pointer;
+}
+
+
+.education-tool {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.single-tool {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 15px 0px;
+}
+
+.single-tool img {
+    width: 20px;
+    height: 20px;
+    margin-right: 30px;
+}
+
+.single-tool span {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+
+
+.values {
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.values p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #3f4254;
+}
+
+
+.activities-container .apexcharts-canvas.apexcharts-theme-light svg {
+    height: 130px !important;
+}
+
+
+
+
+
+@media(max-width:1200px) {
+    .activities-container {
+        width: 100%;
+    }
+}
+
+@media(max-width:768px) {
+    .activities-container {
+        padding: 20px 10px;
+    }
+}

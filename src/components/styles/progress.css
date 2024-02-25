@@ -1,0 +1,70 @@
+.redial-wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 41px 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px #e8e8e8;
+}
+
+.redial-wrap .apexcharts-text.apexcharts-datalabel-label {
+    font-size: 23px !important;
+    fill: #000 !important;
+}
+
+.single-rogress {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rogress-wrap {
+    width: 100%;
+    position: relative;
+}
+
+
+.parsentance {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.proggress-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.proggress-info p {
+    font-size: 19px;
+    font-weight: 500;
+    color: #BCBCBC;
+    margin-bottom: 3px;
+}
+
+.proggress-info span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+
+
+@media(max-width:768px) {
+    .redial-wrap {
+        flex-wrap: wrap;
+    }
+
+    .single-rogress {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

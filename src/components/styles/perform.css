@@ -1,0 +1,50 @@
+.single-box {
+    width: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 0px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 5px #e8e8e8;
+}
+
+
+.countup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.countup img {
+    width: 61px;
+    height: 61px;
+    margin-right: 20px;
+}
+
+.countup h1 {
+    font-size: 37px;
+}
+
+.single-box p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+@media(max-width:1200px) {
+
+    .single-box {
+        width: 48% !important;
+        margin: 15px 0px;
+    }
+}
+
+@media(max-width:768px) {
+
+    .single-box {
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,60 @@
+.customCalendar {
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 5px #eeeeee;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+
+
+
+.calendarHeading {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.calendarHeading select {
+    outline: none;
+    border: none;
+    color: #000;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    padding-right: 16px;
+    background-image: url(../../pages/images/Polygon\ 20.svg);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 5px;
+}
+.calendarHeading select:last-child {
+    background-image: url(../../pages/images/Polygon\ 19.svg);
+}
+
+
+
+
+
+.react-calendar {
+    width: 100%;
+    border: none !important;
+}
+.react-calendar__navigation {
+    display: none !important;
+}
+.react-calendar abbr {
+    text-decoration: none;
+}
+
+
+.calendarBody {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.calendar-container {
+    width: 100%;
+}
+
+.react-calendar {
+    width: 100% !important;
+}
